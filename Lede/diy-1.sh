@@ -4,9 +4,8 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-# sed -i '$a src-git diy https://github.com/281677160/openwrt-package' feeds.conf.default
-# sed -i '$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
-# sed -i '$a src-git luci1 https://github.com/openwrt/luci' feeds.conf.default
+sed -i '$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
+sed -i '$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
 
 # 使用源码自带ShadowSocksR Plus+出国软件
 # sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
